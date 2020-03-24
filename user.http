@@ -6,9 +6,10 @@ GET http://127.0.0.1:3000/user/hyunwoo
 ### 
 POST http://127.0.0.1:3000/user
 Content-Type: application/json
+auth : token
 
 {
-  "name" : "hyunwoo",
+  "name" : "hyunwoo2",
   "desc" : "......",
   "email" : "h.hyunwoo@gmail.com"
 }
